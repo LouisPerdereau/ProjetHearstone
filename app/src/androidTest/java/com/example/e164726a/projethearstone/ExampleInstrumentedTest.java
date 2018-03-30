@@ -1,4 +1,4 @@
-package com.example.e164726a.projethearthstone;
+package com.example.e164726a.projethearstone;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

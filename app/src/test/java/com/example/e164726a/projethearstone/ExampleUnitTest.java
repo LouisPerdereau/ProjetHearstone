@@ -1,4 +1,4 @@
-package com.example.e164726a.projethearthstone;
+package com.example.e164726a.projethearstone;
 
 import org.junit.Test;
 
