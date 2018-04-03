@@ -5,7 +5,7 @@ android {
     buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.example.e164726a.projethearstone"
-        minSdkVersion 23
+        minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -27,9 +27,9 @@ dependencies {
 
     // Ajout de Bibliothèques
 
-    compile  'com.android.support:appcompat-v7:26.+'
-    compile  'com.android.support.constraint:constraint-layout:1.0.2'
-    compile  'com.koushikdutta.ion:ion:2.+'
+    compile "com.squareup.picasso:picasso:2.4.0"
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.koushikdutta.ion:ion:2.+'
     testCompile 'junit:junit:4.12'
-
 }
