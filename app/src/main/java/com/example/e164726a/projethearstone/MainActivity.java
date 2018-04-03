@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
                 .load("https://omgvamp-hearthstone-v1.p.mashape.com/info/")
                 .addHeader("X-Mashape-Key","ffCXysEgCMmshgWPOSVnNtrl3kllp1YejDMjsnP8cQy6RhhHBl")
                 .addHeader("X-Mashape-Host", "omgvamp-hearthstone-v1.p.mashape.com")
+                .addHeader("locale","frFR")
                 .asJsonObject()
 
                 .setCallback(new FutureCallback<JsonObject>() {
@@ -134,6 +135,7 @@ public class MainActivity extends Activity {
                             .load("https://omgvamp-hearthstone-v1.p.mashape.com/cards/classes/"+classes)
                             .addHeader("X-Mashape-Key", "ffCXysEgCMmshgWPOSVnNtrl3kllp1YejDMjsnP8cQy6RhhHBl")
                             .addHeader("X-Mashape-Host", "omgvamp-hearthstone-v1.p.mashape.com")
+                            .addHeader("locale","frFR")
                             .asJsonArray()
 
                             .setCallback(new FutureCallback<JsonArray>() {
@@ -174,6 +176,7 @@ public class MainActivity extends Activity {
                             .load("https://omgvamp-hearthstone-v1.p.mashape.com/cards/factions/"+faction)
                             .addHeader("X-Mashape-Key", "ffCXysEgCMmshgWPOSVnNtrl3kllp1YejDMjsnP8cQy6RhhHBl")
                             .addHeader("X-Mashape-Host", "omgvamp-hearthstone-v1.p.mashape.com")
+                            .addHeader("locale","frFR")
                             .asJsonArray()
 
                             .setCallback(new FutureCallback<JsonArray>() {
@@ -215,6 +218,7 @@ public class MainActivity extends Activity {
                             .load("https://omgvamp-hearthstone-v1.p.mashape.com/cards/races/"+race)
                             .addHeader("X-Mashape-Key", "ffCXysEgCMmshgWPOSVnNtrl3kllp1YejDMjsnP8cQy6RhhHBl")
                             .addHeader("X-Mashape-Host", "omgvamp-hearthstone-v1.p.mashape.com")
+                            .addHeader("locale","frFR")
                             .asJsonArray()
 
                             .setCallback(new FutureCallback<JsonArray>() {
@@ -256,6 +260,7 @@ public class MainActivity extends Activity {
                             .load("https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/"+type)
                             .addHeader("X-Mashape-Key", "ffCXysEgCMmshgWPOSVnNtrl3kllp1YejDMjsnP8cQy6RhhHBl")
                             .addHeader("X-Mashape-Host", "omgvamp-hearthstone-v1.p.mashape.com")
+                            .addHeader("locale","frFR")
                             .asJsonArray()
 
                             .setCallback(new FutureCallback<JsonArray>() {

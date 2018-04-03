@@ -15,8 +15,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,7 +45,7 @@ public class Main2Activity extends Activity {
             for (JsonElement card : obj) {
 
                 Log.d("name",card.getAsJsonObject().get("name").toString());
-                items.add(card.getAsJsonObject().get("name").toString());
+                items.add(card.getAsJsonObject().get("name").toString().replace("\"",""));
 
             }
 
